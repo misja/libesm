@@ -5,4 +5,6 @@ libesm_la_SOURCES = ac_heap.c \
                     libesm/ac_list.h \
                     libesm/aho_corasick.h
 libesm_la_includedir=$(includedir)/libesm
-libesm_la_include_HEADERS = libesm/aho_corasick.h
+libesm_la_include_HEADERS = libesm/aho_corasick.h \
+                            libesm/ac_heap.h \
+                            libesm/ac_list.h
